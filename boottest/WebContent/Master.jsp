@@ -1,0 +1,174 @@
+<%@ page contentType="text/html; charset=euc-kr"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="jquery.Aplus.084.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	
+	<body>
+<div class="navbar-wrapper">
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-static-top">
+      
+        <div class="navbar-header">
+	    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </a>
+        <a class="navbar-brand" href="#">Bootstrap 3</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://localhost:8080/semi/index.html">Home</a></li>
+            <li><a href="#" target="ext">임시</a></li>
+            <li><a href="#contact">임시</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+  </div><!-- /container -->
+</div><!-- /navbar wrapper -->
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://rkelek.ipdisk.co.kr:8000/list/HDD1/1412443275_IMG_2066.jpg" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>4조 ERP 마스터 권한</h1>
+          
+          </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://rkelek.ipdisk.co.kr:8000/list/HDD1/1.jpg" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>재고관리</h1>
+          <p>출입고관리 및 재고 조회</p>
+          <p><a class="btn btn-large btn-primary" href="input.jsp">시작</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://rkelek.ipdisk.co.kr:8000/list/HDD1/2.jpg" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>인사관리</h1>
+          <p>인사 및 급여 관리</p>
+          <p><a class="btn btn-large btn-primary" href="plist-search.jsp">시작</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  
+</div>
+<!-- /.carousel -->
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <img class="img-circle" src="http://rkelek.ipdisk.co.kr:8000/list/HDD1/qwe.jpg">
+      <h2>판매현황</h2>
+      <p>임시</p>
+      
+      <p><a class="btn btn-default " href="semi.do?command=CurrentState" target="ext" >
+      판매 현황 보기>></a></p>
+      
+    </div>
+    
+    <div class="col-md-4 text-center">
+      <img class="img-circle" src="http://rkelek.ipdisk.co.kr:8000/list/HDD1/qwe.jpg">
+      <h2>재고현황</h2>
+      <p>임시</p>
+      
+      <p><a class="btn btn-default " href="semi.do?command=AlldateTest" target="ext" >
+      재고 현황 보기>></a></p>
+      
+    </div>
+ 
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+<!--   <hr class="featurette-divider">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
+    <h2 class="featurette-heading">Responsive Design. <span class="text-muted">It'll blow your mind.</span></h2>
+    <p class="lead">In simple terms, a responsive web design figures out what resolution of device it's being served on. Flexible grids then size correctly to fit the screen.</p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-left" src="http://placehold.it/512">
+    <h2 class="featurette-heading">Smaller Footprint. <span class="text-muted">Lightweight.</span></h2>
+    <p class="lead">The new Bootstrap 3 promises to be a smaller build. The separate Bootstrap base and responsive.css files have now been merged into one. There is no more fixed grid, only fluid.</p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
+    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Flatness.</span></h2>
+    <p class="lead">A big design trend for 2013 is "flat" design. Gone are the days of excessive gradients and shadows. Designers are producing cleaner flat designs, and Bootstrap 3 takes advantage of this minimalist trend.</p>
+  </div>
+
+  <hr class="featurette-divider">
+ -->
+  <!-- /END THE FEATURETTES -->
+
+
+
+
+</div><!-- /.container -->
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
